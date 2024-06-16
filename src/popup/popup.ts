@@ -5,3 +5,6 @@ document.querySelector('#go-to-options')?.addEventListener('click', function() {
         window.open(chrome.runtime.getURL('options/options.html'))
     }
 })
+
+// Add and empty export statement to make this file a module
+export {}
